@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "www.linkedin.com/in/sadakat-hossain-5212a7283",
+      href: "https://www.linkedin.com/in/sadakat-hossain",
       style: "rounded-tr-md",
     },
     {
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Email <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:dev.hossain.sadakat@gmail.com",
+      href: "mailto:sadakat.hossain@gmail.com",
     },
     {
       id: 4,

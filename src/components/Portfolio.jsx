@@ -1,46 +1,52 @@
-import React from "react";
-import api from "/assets/portfolio/api.jpg";
-import apod from "/assets/portfolio/apod.jpg";
-import iptracker from "/assets/portfolio/iptracker.jpg";
-import nftportal from "/assets/portfolio/nftportal.jpg";
-import webpostman from "/assets/portfolio/webpostman.jpg";
-import waveportal from "/assets/portfolio/waveportal.jpg";
+
+import foodVozoni from "../../public/WebSc/foodVozoni.png"
+import aiUnivers from "../../public/WebSc/ai-univers.png";
+import sprogramming from "../../public/WebSc/S-Programming.png";
+import jobsHouse from "../../public/WebSc/jobsHouse.png";
+import germotry from "../../public/WebSc/Geometry.png";
+import countries from "../../public/WebSc/Countries.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: api,
-      link: "https://s-assignment.netlify.app",
+      src: foodVozoni,
+      name: "Food Vozoni",
+      link: "https://food-vozoni.web.app/",
       repo: " ",
     },
     {
       id: 2,
-      src: webpostman,
-      link: "https://reliable-travesseiro-243f82.netlify.app",
+      src: aiUnivers,
+      name: "AI Univers",
+      link: "https://s-assignment.netlify.app",
       repo: " ",
     },
     {
       id: 3,
-      src: apod,
-      link: "https://steady-bunny-6b6189.netlify.app",
+      src: sprogramming,
+      name: "S-Programming",
+      link: "https://reliable-travesseiro-243f82.netlify.app",
       repo: " ",
     },
     {
       id: 4,
-      src: waveportal,
-      link: "https://neon-pony-919700.netlify.app",
+      src: jobsHouse,
+      name: "Job's House",
+      link: "https://steady-bunny-6b6189.netlify.app",
       repo: " ",
     },
     {
       id: 5,
-      src: nftportal,
-      link: "https://meek-manatee-b39a30.netlify.app",
+      src: germotry,
+      name: "Germotry Genious",
+      link: "https://neon-pony-919700.netlify.app",
       repo: " ",
     },
     {
       id: 6,
-      src: iptracker,
+      src: countries,
+      name: "Countries Web",
       link: "https://gleaming-kheer-b829bb.netlify.app",
       repo: " ",
     },
@@ -62,7 +68,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, link, repo }) => (
+          {portfolios.map(({ id, src, link, repo, name }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -74,7 +80,7 @@ const Portfolio = () => {
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                   onClick={() => window.open(link, "_blank")}
                 >
-                  Demo
+                  {name}
                 </button>
                 <button
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
