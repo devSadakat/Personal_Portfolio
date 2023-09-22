@@ -1,4 +1,4 @@
-import React from "react";
+
 // import { Link } from "react-scroll";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -56,13 +56,15 @@ const Contact = () => {
             <p className="text-2xl flex gap-2 font-semibold">
               <FaMailBulk /> Email:{" "}
               <span className="text-2xl text-purple-500">
-                dev.hossain.sadakat@gmail.com
+                sadakt.hossain11@gmail.com
               </span>{" "}
             </p>
           </div>
-          {/* <div className=" flex justify-end items-center">
+
+          {/* Messaging Form */}
+          <div className=" flex justify-center my-16 items-center">
             <form
-              onSubmit={handleSubmit}
+              // onSubmit={handleSubmit}
               name="contact"
               method="POST"
               action="https://getform.io/f/a5bbeab4-3505-457e-bcda-603c8bc15711"
@@ -97,7 +99,7 @@ const Contact = () => {
                 Send Message
               </button>
             </form>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
