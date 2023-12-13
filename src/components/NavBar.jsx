@@ -38,7 +38,7 @@ const NavBar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            MERN <span className="text-xl">Stack DEVELOPER</span>
+            MERN <span className="text-xl">Stack</span>
           </a>
         </h1>
       </div>

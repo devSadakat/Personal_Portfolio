@@ -10,18 +10,18 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 home"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="small-screen hidden">
+        <div className="small-screen hidden sm:mb-28">
           {/* small device */}
           <img
             src={SadakatImg}
             alt="profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-96"
           />
         </div>
         <div className="flex flex-col justify-center h-full">
           <div>
             <h3 className="text-xl sm:text-3xl font-bold text-sky-600">
-              Hello, I'm Sadakat hossain
+              This is Sadakat Hossain
             </h3>
             <h3 className="text-2xl sm:text-5xl font-bold text-white">
               MERN Stack Developer
