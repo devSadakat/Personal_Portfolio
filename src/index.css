@@ -96,6 +96,7 @@
   
     .big-screen {
       display: none;
+      width: 200px;
     }
   
     .gap-8 {

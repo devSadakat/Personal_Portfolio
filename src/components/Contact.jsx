@@ -4,6 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 import { FaMailBulk } from "react-icons/fa";
+// import './CSS/style.css'
 
 //function for form reset
 
@@ -12,6 +13,8 @@ import { FaMailBulk } from "react-icons/fa";
 //     e.target.reset();
 //   }, 3000);
 // }
+
+
 
 const Contact = () => {
   return (
@@ -35,7 +38,7 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/sadakat-hossain"
               >
                 <FaLinkedin className="text-2xl" />{" "}
-                <span className="text-2xl text-purple-500">Linked In</span>
+                <span className="text-2xl text-purple-500 css">Linked In</span>
               </a>{" "}
             </p>
             <p>
@@ -44,16 +47,16 @@ const Contact = () => {
                 href="https://www.facebook.com/Sadakathosen/"
               >
                 <FaFacebook className="text-2xl" />{" "}
-                <span className="text-2xl text-purple-500">Facebook</span>
+                <span className="text-2xl text-purple-500 css">Facebook</span>
               </a>
             </p>
-            <p className="flex gap-2 text-2xl font-semibold">
+            <p className="flex gap-2 text-2xl font-semibold css">
               <FaPhone /> Phone:{" "}
               <span className="text-2xl text-purple-500 font-">
                 +880 1887023201
               </span>
             </p>
-            <p className="text-2xl flex gap-2 font-semibold">
+            <p className="text-2xl flex gap-2 font-semibold css">
               <FaMailBulk /> Email:{" "}
               <span className="text-2xl text-purple-500">
                 sadakt.hossain11@gmail.com

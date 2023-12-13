@@ -1,5 +1,4 @@
-import React from "react";
-import HeroImage from "/assets/heroImage.png";
+import SadakatImg from "/assets/person.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -12,8 +11,9 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="small-screen hidden">
+          {/* small device */}
           <img
-            src={HeroImage}
+            src={SadakatImg}
             alt="profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
@@ -24,14 +24,15 @@ const Home = () => {
               Hello, I'm Sadakat hossain
             </h3>
             <h3 className="text-2xl sm:text-5xl font-bold text-white">
-              Full Stack Developer
+              MERN Stack Developer
             </h3>
           </div>
           <p className="text-gray-500 py-4 max-w-md">
-            As a web developer I have better experience building and designing
+            <span className="font-bold">Welcome to Sadakat's Profile Home.</span> As a web developer I have better experience building and designing
             website.You have got a brief idea about me in this website.I can be
             your best choice for front-end and back-end website development.{" "}
-            <br /> Work with an honest mind.
+            <br />
+            <br /> Honesty is the best policy.
           </p>
 
           <div className="portfolio-btn flex flex-col sm:flex-row gap-5">
@@ -52,11 +53,12 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="big-screen">
+        {/* large device */}
+        <div className="big-screen w-96 mb-56">
           <img
-            src={HeroImage}
+            src={SadakatImg}
             alt="profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto mt-48"
           />
         </div>
       </div>
