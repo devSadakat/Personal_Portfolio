@@ -1,17 +1,16 @@
-import React from "react";
 
-import html from "/assets/html.png";
-import css from "/assets/css.png";
-import javascript from "/assets/javascript.png";
-import reactImage from "/assets/react.png";
-import nextjs from "/assets/daisyUI.png";
-import graphql from "/assets/Bootstrap.png";
-import github from "/assets/github.png";
-import tailwind from "/assets/tailwind.png";
-import node from "/assets/node.png";
-import express from "/assets/express.png";
-import mongodb from "/assets/mongodb.png";
-import redux from "/assets/firebase.png";
+import html from "../../public/assets/experience//html.png";
+import css from "../../public/assets/experience//css.png";
+import javascript from "../../public/assets/experience//javascript.png";
+import reactImage from "../../public/assets/experience//react.png";
+import nextjs from "../../public/assets/experience//daisyUI.png";
+import graphql from "../../public/assets/experience//Bootstrap.png";
+import github from "../../public/assets/experience//github.png";
+import tailwind from "../../public/assets/experience//tailwind.png";
+import node from "../../public/assets/experience//node.png";
+import express from "../../public/assets/experience//express.png";
+import mongodb from "../../public/assets/experience//mongodb.png";
+import redux from "../../public/assets/experience//firebase.png";
 const Experience = () => {
   const techs = [
     {
@@ -96,7 +95,7 @@ const Experience = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-            Experience
+            Expart In-
           </p>
           <p className="py-6">
             These are the technologies I've worked with and used them in my

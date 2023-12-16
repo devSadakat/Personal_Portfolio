@@ -7,15 +7,15 @@ const About = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            About me
+            Sadakat-Description
           </p>
           <p className="mt-2 font-semibold text-teal-100">
-            Read something about me.
+            Let's Read about -Developer Sadakat Hossain.
           </p>
         </div>
 
         <p className="text-xl mt-5">
-          I am a web developer, working in both, backend and frontend
+          I am a experienced web application developer, working in both- Front-End and Back-End
           programming. Excited for improving my skills and learning new
           technologies. I'm open to learn and work with any web technology and
           currently doing freelance gigs.
@@ -25,7 +25,7 @@ const About = () => {
           thoughts to life. Connect with me to get your project done. <br />{" "}
           I value minimalistic designs, thoughtful branding of the content, and
           customer relatable experience. Let’s discover together how we can make
-          your project convert better!I enjoy creating or redesigning a distinct identity for a
+          your project convert better! I enjoy creating or redesigning a distinct identity for a
           product or service, get more traffic from search engine and social
           platforms.
         </p>

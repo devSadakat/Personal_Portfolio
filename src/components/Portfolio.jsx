@@ -1,10 +1,10 @@
 
-import foodVozoni from "../../public/WebSc/foodVozoni.png"
-import aiUnivers from "../../public/WebSc/ai-univers.png";
-import sprogramming from "../../public/WebSc/S-Programming.png";
-import jobsHouse from "../../public/WebSc/jobsHouse.png";
-import germotry from "../../public/WebSc/Geometry.png";
-import countries from "../../public/WebSc/Countries.png";
+import foodVozoni from "../../public/assets/WebSc/foodVozoni.png"
+import aiUnivers from "../../public/assets/WebSc/ai-univers.png";
+import sprogramming from "../../public/assets/WebSc/S-Programming.png";
+import jobsHouse from "../../public/assets/WebSc/jobsHouse.png";
+import germotry from "../../public/assets/WebSc/Geometry.png";
+import countries from "../../public/assets/WebSc/Countries.png";
 
 const Portfolio = () => {
   const portfolios = [
