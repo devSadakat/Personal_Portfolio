@@ -1,16 +1,16 @@
 
-import html from "../../public/assets/experience//html.png";
-import css from "../../public/assets/experience//css.png";
-import javascript from "../../public/assets/experience//javascript.png";
-import reactImage from "../../public/assets/experience//react.png";
-import nextjs from "../../public/assets/experience//daisyUI.png";
-import graphql from "../../public/assets/experience//Bootstrap.png";
-import github from "../../public/assets/experience//github.png";
-import tailwind from "../../public/assets/experience//tailwind.png";
-import node from "../../public/assets/experience//node.png";
-import express from "../../public/assets/experience//express.png";
-import mongodb from "../../public/assets/experience//mongodb.png";
-import redux from "../../public/assets/experience//firebase.png";
+import html from "../../public/assets/experience/html.png";
+import css from "../../public/assets/experience/css.png";
+import javascript from "../../public/assets/experience/javascript.png";
+import reactImage from "../../public/assets/experience/react.png";
+import nextjs from "../../public/assets/experience/daisyUI.png";
+import graphql from "../../public/assets/experience/Bootstrap.png";
+import github from "../../public/assets/experience/github.png";
+import tailwind from "../../public/assets/experience/tailwind.png";
+import node from "../../public/assets/experience/node.png";
+import express from "../../public/assets/experience/express.png";
+import mongodb from "../../public/assets/experience/mongodb.png";
+import redux from "../../public/assets/experience/firebase.png";
 const Experience = () => {
   const techs = [
     {
