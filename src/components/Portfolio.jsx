@@ -9,6 +9,13 @@ import countries from "../../public/assets/WebSc/Countries.png";
 const Portfolio = () => {
   const portfolios = [
     {
+      id: 6,
+      src: countries,
+      name: "Indian Royal",
+      link: "https://gleaming-kheer-b829bb.netlify.app",
+      repo: " ",
+    },
+    {
       id: 1,
       src: foodVozoni,
       name: "Food Vozoni",
@@ -43,13 +50,6 @@ const Portfolio = () => {
       link: "https://neon-pony-919700.netlify.app",
       repo: " ",
     },
-    {
-      id: 6,
-      src: countries,
-      name: "Countries Web",
-      link: "https://gleaming-kheer-b829bb.netlify.app",
-      repo: " ",
-    },
   ];
 
   return (
@@ -80,7 +80,7 @@ const Portfolio = () => {
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                   onClick={() => window.open(link, "_blank")}
                 >
-                  {name}
+                  <button className="btn btn-outline">{name}</button>
                 </button>
                 <button
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
@@ -88,6 +88,7 @@ const Portfolio = () => {
                 >
                   {/* GitHub */}
                 </button>
+                <button></button>
               </div>
             </div>
           ))}
