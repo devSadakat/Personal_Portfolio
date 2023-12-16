@@ -74,6 +74,7 @@ const Portfolio = () => {
                 src={src}
                 alt="projects"
                 className="rounded-md duration-200 hover:scale-105"
+                onClick={() => window.open(webLink, "Live Web")}
               />
               <div className="flex items-center justify-center">
                 <button
