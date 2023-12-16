@@ -80,13 +80,13 @@ const Portfolio = () => {
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                   onClick={() => window.open(link, "_blank")}
                 >
-                  <button className="btn btn-outline">{name}</button>
+                  <button className="btn btn-outline btn-sm border-0 border-b-4">{name}</button>
                 </button>
                 <button
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 upperCa"
                   onClick={() => window.open(repo, "_blank")}
                 >
-                  {/* GitHub */}
+                  GitHub
                 </button>
                 <button></button>
               </div>
