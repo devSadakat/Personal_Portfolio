@@ -8,13 +8,7 @@ import countries from "../../public/assets/WebSc/Countries.png";
 
 const Portfolio = () => {
   const portfolios = [
-    {
-      id: 6,
-      src: countries,
-      name: "Indian Royal",
-      webLink: "https://gleaming-kheer-b829bb.netlify.app",
-      repo: " ",
-    },
+
     {
       id: 1,
       src: foodVozoni,
@@ -48,6 +42,13 @@ const Portfolio = () => {
       src: germotry,
       name: "Germotry Genious",
       webLink: "https://neon-pony-919700.netlify.app",
+      repo: " ",
+    },
+    {
+      id: 6,
+      src: countries,
+      name: "Indian Royal",
+      webLink: "https://gleaming-kheer-b829bb.netlify.app",
       repo: " ",
     },
   ];

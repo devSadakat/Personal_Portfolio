@@ -2,6 +2,7 @@ import SadakatImg from "/assets/person.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import resume from "../../public/assets/sadakatResume.pdf";
 
 const Home = () => {
   return (
@@ -47,10 +48,16 @@ const Home = () => {
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </Link>
-            <button className=" text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+            <a href={resume} download>
+              <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+                <BsFillPersonLinesFill className="mx-2" size={30} />
+                Download Resume
+              </button>
+            </a>
+            {/* <button className=" text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
               <BsFillPersonLinesFill className="mx-2" size={30} />
               Download Resume
-            </button>
+            </button> */}
           </div>
         </div>
         {/* large device */}
