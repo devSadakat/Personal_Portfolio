@@ -10,14 +10,14 @@ const About = () => {
             Sadakat-Description
           </p>
           <p className="mt-2 font-semibold text-teal-100">
-            Let's Read about -Developer Sadakat Hossain.
+            Read about -Developer Sadakat Hossain.
           </p>
         </div>
 
         <p className="text-xl mt-5">
           I am a experienced web application developer, working in both- Front-End and Back-End
           programming. Excited for improving my skills and learning new
-          technologies. I'm open to learn and work with any web technology and
+          technologies. I amm open to learn and work with any web technology and
           currently doing freelance gigs.
         </p>
         <p className="text-xl">

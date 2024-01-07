@@ -98,7 +98,7 @@ const Experience = () => {
             Expart In-
           </p>
           <p className="py-6">
-            These are the technologies I've worked with and used them in my
+            These are the technologies I haved worked with and used them in my
             projects.
           </p>
         </div>
