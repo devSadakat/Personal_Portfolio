@@ -54,10 +54,6 @@ const Home = () => {
                 Download Resume
               </button>
             </a>
-            {/* <button className=" text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
-              <BsFillPersonLinesFill className="mx-2" size={30} />
-              Download Resume
-            </button> */}
           </div>
         </div>
         {/* large device */}
