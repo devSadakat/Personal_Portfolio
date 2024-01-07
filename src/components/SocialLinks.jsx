@@ -85,14 +85,3 @@ const SocialLinks = () => {
 };
 
 export default SocialLinks;
-
-// {
-//   id: 4,
-//   child: (
-//     <>
-//       Resume <BsFillPersonLinesFill size={30} />
-//     </>
-//   ),
-//   href: resume,
-//   download: true,
-// },
