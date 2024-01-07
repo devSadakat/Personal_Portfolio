@@ -29,9 +29,9 @@ const Home = () => {
             </h3>
           </div>
           <p className="text-gray-500 py-4 max-w-md">
-            <span className="font-bold">Welcome to Sadakat's Profile Home.</span> As a web developer I have better experience building and designing
+            <span className="font-bold">Welcome to my Profile Home.</span> As a web developer I am experienced in developing and designing
             website.You have got a brief idea about me in this website.I can be
-            your best choice for front-end and back-end website development.{" "}
+            your best choice for your website in btoh, front-end and back-end section.{" "}
             <br />
             <br /> Honesty is the best policy.
           </p>
