@@ -14,42 +14,47 @@ const Portfolio = () => {
       src: foodVozoni,
       name: "Food Vozoni",
       webLink: "https://food-vozoni.web.app/",
-      repo: " ",
+      client_repo: "https://github.com/sadakatsrabon/Food-Vozoni",
+      server_repo: "https://github.com/sadakatsrabon/Food-Vozoni-Server"
     },
     {
       id: 2,
       src: aiUnivers,
       name: "AI Univers",
       webLink: "https://s-assignment.netlify.app",
-      repo: " ",
+      client_repo: "",
+      server_repo: ""
     },
     {
       id: 3,
       src: sprogramming,
       name: "S-Programming",
       webLink: "https://reliable-travesseiro-243f82.netlify.app",
-      repo: " ",
+      client_repo: "",
+      server_repo: ""
     },
     {
       id: 4,
       src: jobsHouse,
       name: "Job's House",
       webLink: "https://steady-bunny-6b6189.netlify.app",
-      repo: "https://steady-bunny-6b6189.netlify.app",
+      client_repo: "https://github.com/sadakatsrabon/Jobs-House",
     },
     {
       id: 5,
       src: germotry,
       name: "Germotry Genious",
       webLink: "https://neon-pony-919700.netlify.app",
-      repo: " ",
+      client_repo: "",
+      server_repo: ""
     },
     {
       id: 6,
       src: countries,
       name: "Indian Royal",
       webLink: "https://gleaming-kheer-b829bb.netlify.app",
-      repo: " ",
+      client_repo: "",
+      server_repo: ""
     },
   ];
 
@@ -69,7 +74,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, webLink, repo, name }) => (
+          {portfolios.map(({ id, src, webLink, client_repo, name }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -88,7 +93,7 @@ const Portfolio = () => {
                   className="btn btn-outline btn-sm">{name}</button>
                 <button
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 upperCa"
-                  onClick={() => window.open(repo, "_blank")}
+                  onClick={() => window.open(client_repo, "_blank")}
                 >
                   GitHub
                 </button>
