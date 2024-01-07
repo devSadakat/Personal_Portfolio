@@ -13,7 +13,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/in/sadakat-hossain",
-      style: "rounded-tr-md",
+      style: "rounded-tr-md rounded-full",
     },
     {
       id: 2,
@@ -41,7 +41,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.facebook.com/Sadakathosen/",
-      style: "rounded-br-md",
+      style: "rounded-tr-md rounded-full",
       // download: true,
     },
     {
