@@ -13,7 +13,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/in/sadakat-hossain",
-      style: "rounded-tr-md rounded-full",
+      style: "rounded-full",
     },
     {
       id: 2,
@@ -23,6 +23,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/sadakatsrabon",
+      style: "rounded-full",
     },
     {
       id: 3,
@@ -32,6 +33,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "mailto:sadakat.hossain11@gmail.com",
+      style: "rounded-full",
     },
     {
       id: 4,
@@ -41,8 +43,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.facebook.com/Sadakathosen/",
-      style: "rounded-tr-md rounded-full",
-      // download: true,
+      style: "rounded-full",
     },
     {
       id: 5,
@@ -52,7 +53,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://twitter.com/HsSadakat201",
-      style: "rounded-br-md",
+      style: "rounded-full",
     },
   ];
 
