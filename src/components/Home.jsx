@@ -41,7 +41,7 @@ const Home = () => {
               to="portfolio"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+              className="group text-black w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-500 to-white cursor-pointer"
             >
               Projects
               <span className="group-hover:rotate-90 duration-300">
@@ -49,7 +49,7 @@ const Home = () => {
               </span>
             </Link>
             <a href={resume} download>
-              <btn className="text-white btn btn-outline from-cyan-500 to-blue-500 cursor-pointer">
+              <btn className="text-white btn btn-outline cursor-pointer px-6 mt-2">
                 <BsFillPersonLinesFill className="mx-2" size={30} />
                 Download Resume
               </btn>
