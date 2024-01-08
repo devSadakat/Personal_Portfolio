@@ -73,23 +73,23 @@ const Contact = () => {
                     name="name"
                     placeholder="Enter your name"
                     required
-                    className="p-2 bg-transparent border-x-2 border rounded-md text-white focus:outline-none"
+                    className="p-2 bg-transparent border-x-2 border rounded-md text-white focus:outline-non hover:scale-105 duration-200"
                   />
                   <input
                     type="email"
                     name="email"
                     placeholder="Enter your email"
                     required
-                    className="p-2 bg-transparent border-x-2 border rounded-md text-white focus:outline-none"
+                    className="p-2 bg-transparent border-x-2 border rounded-md text-white focus:outline-none hover:scale-105 duration-200"
                   />
                 </div>
                 <div className="pt-6">
                   <textarea
                     name="message"
-                    placeholder="Enter your message"
+                    placeholder="Write your message"
                     rows="4"
                     required
-                    className="p-2 bg-transparent border-x-2 border rounded-md text-white focus:outline-none w-full"
+                    className="p-2 bg-transparent border-x-2 border rounded-md text-white focus:outline-none w-full hover:scale-105 duration-200"
                   ></textarea>
                 </div>
               </div>
