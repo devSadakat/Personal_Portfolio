@@ -53,8 +53,8 @@ const Contact = () => {
         </div>
 
         {/* Messaging Form */}
-        <div>
-          <div>
+        <div className="flex">
+          <div className="my-auto">
             <h2>Hi sir,</h2>
             <p>Are yor want ot send a message to Sadakat Hossain? </p>
           </div>
