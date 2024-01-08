@@ -58,13 +58,13 @@ const Contact = () => {
             <h2>Hi sir,</h2>
             <p>Are yor want ot send a message to Sadakat Hossain? </p>
           </div>
-          <div className=" flex justify-center my-16 items-center">
+          <div className="m-auto  pt-20">
             <form
               // onSubmit={handleSubmit}
               name="contact"
               method="POST"
               action=""
-              className=" flex flex-col w-full md:w-1/2"
+              className=" flex flex-col w-full"
             >
               <input
                 type="text"
@@ -87,13 +87,7 @@ const Contact = () => {
                 required
                 className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
               ></textarea>
-
-              <button
-                type="submit"
-                className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
-              >
-                Send Message
-              </button>
+              <input className="text-white bg-gradient-to-b from-indigo-700 to-black px-6 py-1 my-8 mx-auto rounded hover:scale-110 duration-100" type="submit" value="Send" />
             </form>
           </div>
         </div>
