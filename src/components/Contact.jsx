@@ -54,8 +54,8 @@ const Contact = () => {
 
         {/* Messaging Form */}
         <div className="flex">
-          <div className="my-auto">
-            <h2>Hi sir,</h2>
+          <div className="my-auto ml-8">
+            <h2 className="text-3xl font-bold">Hi sir,</h2>
             <p>Are yor want ot send a message to Sadakat Hossain? </p>
           </div>
           <div className="m-auto  pt-20">
@@ -66,27 +66,33 @@ const Contact = () => {
               action=""
               className=" flex flex-col w-full"
             >
-              <input
-                type="text"
-                name="name"
-                placeholder="Enter your name"
-                required
-                className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="Enter your email"
-                required
-                className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
-              />
-              <textarea
-                name="message"
-                placeholder="Enter your message"
-                rows="10"
-                required
-                className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
-              ></textarea>
+              <div>
+                <div className="flex gap-4">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                    className="p-2 bg-transparent border-x-2 border rounded-md text-white focus:outline-none"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                    className="p-2 bg-transparent border-x-2 border rounded-md text-white focus:outline-none"
+                  />
+                </div>
+                <div className="pt-6">
+                  <textarea
+                    name="message"
+                    placeholder="Enter your message"
+                    rows="4"
+                    required
+                    className="p-2 bg-transparent border-x-2 border rounded-md text-white focus:outline-none w-full"
+                  ></textarea>
+                </div>
+              </div>
               <input className="text-white bg-gradient-to-b from-indigo-700 to-black px-6 py-1 my-8 mx-auto rounded hover:scale-110 duration-100" type="submit" value="Send" />
             </form>
           </div>
