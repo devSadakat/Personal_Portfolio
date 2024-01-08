@@ -53,43 +53,45 @@ const Contact = () => {
         </div>
 
         {/* Messaging Form */}
-        <div className=" flex justify-center my-16 items-center">
-          <form
-            // onSubmit={handleSubmit}
-            name="contact"
-            method="POST"
-            action=""
-            className=" flex flex-col w-full md:w-1/2"
-          >
-            <input
-              type="text"
-              name="name"
-              placeholder="Enter your name"
-              required
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Enter your email"
-              required
-              className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
-            />
-            <textarea
-              name="message"
-              placeholder="Enter your message"
-              rows="10"
-              required
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
-            ></textarea>
-
-            <button
-              type="submit"
-              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+        <div>
+          <div className=" flex justify-center my-16 items-center">
+            <form
+              // onSubmit={handleSubmit}
+              name="contact"
+              method="POST"
+              action=""
+              className=" flex flex-col w-full md:w-1/2"
             >
-              Send Message
-            </button>
-          </form>
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                required
+                className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+                className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              />
+              <textarea
+                name="message"
+                placeholder="Enter your message"
+                rows="10"
+                required
+                className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              ></textarea>
+
+              <button
+                type="submit"
+                className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
