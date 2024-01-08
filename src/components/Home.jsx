@@ -49,10 +49,10 @@ const Home = () => {
               </span>
             </Link>
             <a href={resume} download>
-              <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+              <btn className="text-white btn btn-outline from-cyan-500 to-blue-500 cursor-pointer">
                 <BsFillPersonLinesFill className="mx-2" size={30} />
                 Download Resume
-              </button>
+              </btn>
             </a>
           </div>
         </div>
