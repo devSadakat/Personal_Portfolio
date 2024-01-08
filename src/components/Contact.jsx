@@ -54,6 +54,10 @@ const Contact = () => {
 
         {/* Messaging Form */}
         <div>
+          <div>
+            <h2>Hi sir,</h2>
+            <p>Are yor want ot send a message to Sadakat Hossain? </p>
+          </div>
           <div className=" flex justify-center my-16 items-center">
             <form
               // onSubmit={handleSubmit}
