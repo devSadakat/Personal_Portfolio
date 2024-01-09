@@ -1,9 +1,9 @@
-import React from 'react';
+
 
 const Blog = () => {
     return (
         <div>
-            
+            <h2>Hellow World</h2>
         </div>
     );
 };
