@@ -61,7 +61,7 @@ const Home = () => {
           <img
             src={SadakatImg}
             alt="profile"
-            className="rounded-2xl mx-auto mt-48"
+            className="rounded-full mx-auto mt-48"
           />
         </div>
       </div>
