@@ -55,8 +55,10 @@ const Contact = () => {
         {/* Messaging Form */}
         <div className="md:flex">
           <div className="my-auto ml-8">
+            <div className="divider"></div>
             <h2 className="text-3xl font-bold">Hi sir,</h2>
             <p>Are yor want ot send a message to Sadakat Hossain? </p>
+            <div className="divider"></div>
           </div>
           <div className="m-auto pt-20">
             <form
