@@ -64,7 +64,7 @@ const Contact = () => {
               name="contact"
               method="POST"
               action=""
-              className=" flex flex-col w-full"
+              className=" md:flex flex-col w-full"
             >
               <div>
                 <div className="flex gap-4">
@@ -73,14 +73,14 @@ const Contact = () => {
                     name="name"
                     placeholder="Enter your name"
                     required
-                    className="p-2 bg-transparent border-x-2 border rounded-md text-white focus:outline-non hover:scale-105 duration-200"
+                    className="p-2 w-[45%] bg-transparent border-x-2 border rounded-md text-white focus:outline-non hover:scale-105 duration-200"
                   />
                   <input
                     type="email"
                     name="email"
                     placeholder="Enter your email"
                     required
-                    className="p-2 bg-transparent border-x-2 border rounded-md text-white focus:outline-none hover:scale-105 duration-200"
+                    className="p-2 w-[45%] bg-transparent border-x-2 border rounded-md text-white focus:outline-none hover:scale-105 duration-200"
                   />
                 </div>
                 <div className="pt-6">
