@@ -57,7 +57,7 @@ const Home = () => {
           </div>
         </div>
         {/* large device */}
-        <div className="big-screen w-96 mb-56">
+        <div className="big-screen w-60 ml-7 bg-orange-500 rounded-full mb-56">
           <img
             src={SadakatImg}
             alt="profile"
