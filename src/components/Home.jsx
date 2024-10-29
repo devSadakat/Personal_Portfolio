@@ -2,7 +2,7 @@ import SadakatImg from "/assets/person.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import resume from "../../public/assets/sadakatResume.pdf";
+import resume from "../../public/assets/S_Resume.pdf";
 
 const Home = () => {
   return (
