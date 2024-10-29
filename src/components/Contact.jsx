@@ -23,7 +23,7 @@ const Contact = () => {
             {" "}
             <a
               className="flex gap-5 font-semibold"
-              href="www.linkedin.com/in/sadakat-hossain"
+              href="https://www.linkedin.com/in/sadakat-hossain"
             >
               <FaLinkedin className="text-2xl" />{" "}
               <span className="text-2xl text-purple-500 css">Linked In</span>
